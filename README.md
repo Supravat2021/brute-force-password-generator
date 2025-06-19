@@ -1,13 +1,17 @@
-# 🔐 Password Generator – Brute Force Wordlist Creator
+# 🔐 Brute Force Password Generator
 
-This Python script is a **password list generator for brute-force attacks**, designed to create **all possible combinations** of passwords using:
+This Python script is a **password list generator for brute-force attacks**. It generates **all possible combinations** of passwords using:
 
 - ✅ Uppercase letters (A–Z)
 - ✅ Lowercase letters (a–z)
 - ✅ Numbers (0–9)
 - ✅ Special characters (e.g., !@#$%^&*()_+[]{}|;:,.<>?/)
 
-It can be used for **testing password security**, penetration testing, or educational demonstrations of brute-force techniques.
+This tool is ideal for:
+
+- Password strength testing  
+- Penetration testing  
+- Cybersecurity training and research
 
 ---
 
@@ -15,8 +19,8 @@ It can be used for **testing password security**, penetration testing, or educat
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/password-generator.git
-cd password-generator
+git clone https://github.com/Supravat2021/brute-force-password-generator.git
+cd brute-force-password-generator
 ````
 
 ### 2. Run the script
@@ -25,52 +29,50 @@ cd password-generator
 python password_generator.py
 ```
 
-### 3. Enter input when prompted
+### 3. Enter password length range
 
 ```
 Enter minimum password length: 2
 Enter maximum password length: 3
 ```
 
-The script will:
+✅ Passwords will be:
 
-* ✅ Display each generated password in your terminal
-* ✅ Save all passwords to a file named `password_list.txt`
-
----
-
-## ⚠️ WARNING: Exponential Growth
-
-This tool performs **brute-force generation**, meaning it creates every possible combination of characters for the specified length.
-The number of generated passwords increases **exponentially**:
-
-| Password Length | Approx. Number of Combinations |
-| --------------- | ------------------------------ |
-| 2               | \~9,000                        |
-| 3               | \~850,000                      |
-| 4               | \~81 million                   |
-| 5               | \~7+ billion ⚠️                |
-
-### ❗ Use Responsibly:
-
-* This tool is for **educational and ethical use only**.
-* It should not be used for unauthorized access or illegal activities.
-* Avoid using large lengths unless you're writing to a file only.
-* Terminal printing with large lengths may freeze or crash your system.
+* Printed in your terminal
+* Saved to a file called `password_list.txt`
 
 ---
 
-## 📁 Output
+## ⚠️ WARNING: Exponential Generation
 
-The generated passwords will be saved in:
+This tool uses **brute-force logic** to generate every possible combination.
+The number of passwords **grows rapidly** as length increases:
+
+| Password Length | Approx. Combinations |
+| --------------- | -------------------- |
+| 2               | \~9,000              |
+| 3               | \~850,000            |
+| 4               | \~81 million         |
+| 5               | \~7+ billion ⚠️      |
+
+### ❗ Use Responsibly
+
+* For **educational and ethical** purposes only
+* Avoid large lengths unless you're **saving to file only**
+* Large outputs may **crash your system** if printed to terminal
+
+---
+
+## 📁 Output File
+
+All generated passwords will be saved to:
 
 ```
 password_list.txt
 ```
 
-This file is created automatically in the same folder as the script.
-
 ---
 
-> ⚠️ **Disclaimer:** This tool is for educational and cybersecurity testing purposes only. Misuse of this tool for illegal or unethical purposes is strictly prohibited.
+> ⚠️ **Disclaimer:** This tool is intended for educational, ethical hacking, and security research purposes only. Any unauthorized or malicious use is strictly prohibited.
 
+```
