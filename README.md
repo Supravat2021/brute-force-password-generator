@@ -75,4 +75,3 @@ password_list.txt
 
 > ⚠️ **Disclaimer:** This tool is intended for educational, ethical hacking, and security research purposes only. Any unauthorized or malicious use is strictly prohibited.
 
-```
