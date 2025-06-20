@@ -16,6 +16,8 @@ This tool is ideal for:
 ---
 ## 🎥 Demo Video
 
+Click the thumbnail below to watch the demo on YouTube 👇
+
 [![Watch the demo](https://img.youtube.com/vi/c1fCTHSMhU4/hqdefault.jpg)](https://www.youtube.com/watch?v=c1fCTHSMhU4)
 
 ...
